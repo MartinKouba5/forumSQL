@@ -1,0 +1,76 @@
+/* src/components/PostDetail.css */
+
+.post-detail-container {
+    max-width: 800px; /* Nastavte maximální šířku */
+    padding: 1rem;
+    margin: 2rem auto; /* Zarovná na střed */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Zarovná text vlevo */
+  }
+  
+  .post-detail-container h1 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .post-detail-container h3 {
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-detail-container p {
+    margin-bottom: 1rem;
+  }
+  
+  .post-detail-container small {
+    display: block;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .comment-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .comment-form {
+    margin-bottom: 1rem;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .comment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
